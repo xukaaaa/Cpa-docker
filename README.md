@@ -6,7 +6,9 @@ Docker deployment files for running `eceasy/cli-proxy-api:latest`.
 
 1. Copy environment template:
    - `cp .env.example .env`
-2. Fill required application environment variables in `.env`.
+2. Fill required application environment variables in `.env`:
+   - `MANAGEMENT_PASSWORD`
+   - `PGSTORE_DSN`
 3. Start service:
    - `docker compose up -d`
 
